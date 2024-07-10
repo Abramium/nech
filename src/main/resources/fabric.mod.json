@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "nech",
+  "version": "${version}",
+  "license": "BSD-3-Clause",
+  "environment": "server",
+  "entrypoints": {
+    "server": [
+      "ru.abramium.nech.Nech"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
